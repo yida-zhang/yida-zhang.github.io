@@ -1,3 +1,10 @@
+---
+title: MyBatis分页插件PageHelper的使用
+layout: post
+categories: PageHelper
+tags: MyBatis 
+exccerpt: MyBatis分页插件PageHelper的使用
+---
 ![使用原理]({{site.baseurl}}/assets/res/clipboard.png)
 pageHelper会使用ThreadLocal获取到同一线程中的变量信息，各个线程之间的Threadlocal不会相互干扰，也就是Thread1中的ThreadLocal1之后获取到Tread1中的变量的信息，不会获取到Thread2中的信息
 所以在多线程环境下，各个Threadlocal之间相互隔离，可以实现，不同thread使用不同的数据源或不同的Thread中执行不同的SQL语句
