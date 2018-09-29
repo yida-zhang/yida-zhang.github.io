@@ -19,11 +19,11 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "https://yida-zhang.github.io/"
 url: ""
 permalink: /:year/:month/:day/:title
-repository: knightyun/knightyun.github.io
+repository: yida-zhang/yida-zhang.github.io
 paginate: 5
 
 # MatJek specific configurations
-github_profile: "https://github.com/knightyun"
+github_profile: "https://github.com/yida-zhang"
 user: "张益达"
 user_email: "1335602573@qq.com"
 # contact_url: "https://goo.gl/tVljbV"
